@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    height: 100%;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 10px solid black;
+    border-radius: 20px;
+    width: 400px;
+    min-height: 550px;
+    box-sizing: border-box;
+}
+
+.top{
+    min-height: 100px; 
+    padding: 30px; 
+    padding-bottom: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 380px;
+}
+
+
+
+.display{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: right;
+    background-color: antiquewhite;
+    font-size: 40px;
+}
+
+.oldDisplay{
+    min-height: 30px;
+    padding-right: 10px;
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+.newDisplay{
+    min-height: 50px;
+    padding: 10px;
+    font-size: 50px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.mainButtons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.mainButtons>*{
+    font-size: 40px;
+    border-radius: 2px;
+    height: 55px;
+    width: 173px;
+}
+
+.inputButtons{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    height: 70px;
+    width: 80px;
+    font-size: 20px;
+}

@@ -63,8 +63,9 @@ h1{
 .oldDisplay{
     min-height: 30px;
     padding-right: 10px;
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 5px;
+    overflow-wrap: break-word;
 }
 
 .newDisplay{
